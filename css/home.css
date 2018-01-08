@@ -8,6 +8,25 @@
  * -- BASE STYLES --
  * Most of these are inherited from Base, but I want to change a few.
  */
+
+/* quicksand-regular - latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./quicksand/quicksand-v7-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Quicksand Regular'), local('Quicksand-Regular'),
+       url('./quicksand/quicksand-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./quicksand/quicksand-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./quicksand/quicksand-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./quicksand/quicksand-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./quicksand/quicksand-v7-latin-regular.svg#Quicksand') format('svg'); /* Legacy iOS */
+}
+
+* {
+    font-family: "Quicksand"
+}
+
 body {
     line-height: 1.7em;
     color: #7f8c8d;
@@ -114,7 +133,7 @@ a.pure-button-primary {
 }
 
 .home-menu a {
-    color: white;
+    color: black;
 }
 .home-menu li a:hover,
 .home-menu li a:focus {
@@ -256,7 +275,7 @@ a.pure-button-primary {
 
 /* This is a modifier class used when the content-head is inside a ribbon */
 .content-head-ribbon {
-    color: white;
+    color: black;
 }
 
 /* This is the class used for the content sub-headers (<h3>) */
@@ -270,7 +289,7 @@ a.pure-button-primary {
 /* This is the class used for the dark-background areas. */
 .ribbon {
     background: rgb(144, 167, 72);
-    color: #ddd;
+    color: #333;
     background-image: url("../images/ribbon.svg");
 }
 
