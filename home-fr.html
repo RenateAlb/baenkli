@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <meta charset="utf-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+
+    <title>Secrets bancaires</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous"></link>
+    
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css"></link>
+    <!--<![endif]-->
+    
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="css/home-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="css/home.css"></link>
+    <!--<![endif]-->
+
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore (m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/67a2c8754eb655f65ada11a8c/9b9e7446d0e3432ceb79deb1a.js");</script>
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"67a2c8754eb655f65ada11a8c","lid":"075189294b"}) })</script>
+</head>
+<body>
+    <div class="header">
+        <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="/map" class="pure-menu-link">Bänkli-Landkarte</a></li>
+                <li class="pure-menu-item"><a href="/login" class="pure-menu-link">Einloggen</a></li>
+                <li class="pure-menu-item"><a href="http://eepurl.com/dbP3of">Newsletter</a>
+            </ul>
+        </div>
+        <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed social-menu">
+            <ul class="pure-menu-list">
+
+                <li class="pure-menu-item">
+                    <a href="https://www.instagram.com/bankgeheimnisse"target="_blank" >
+                        <img height="20" width="20" src="images/instagram.png"></img>
+                    </a>
+                </li>
+                <li class="pure-menu-item">
+                    <a href="https://www.facebook.com/bankkultur"target="_blank">
+                        <img height="20" width="20" src="images/facebook.png"></img>
+                    </a>
+                </li>
+                <li class="pure-menu-item">
+                    <a href="https://www.facebook.com/groups/bankgeheimnisse"target="_blank">
+                        <img height="20" width="20" src="images/facebook.png"></img>
+                    </a>
+                </li>
+                           
+            </ul>
+        </div>
+    </div>
+
+    <div class="splash-container">
+        <div class="splash">
+            <a href="/map"><img src="images/splash.jpg"></img></a>
+            <div class="t1">Nehmen Sie Platz!</div>
+            <div class="t2">Entdecken Sie die schönsten Plätze in der Natur!</div>
+	    <div class="t3">Ein Projekt vom <a href="https://www.bankkultur.ch"target="_blank"><img src="images/Verein Bankkultur Logo.png"></img></a></div>
+            <div class="t4">Testversion! Version francais disponibleen janvier! <a href="images/Testversion_FAQ.pdf"target="_blank">Bitte lesen Sie folgendes durch!</a> </div>
+            <div class="t5">Bankgeheimnisse</div>
+            <div class="t6">für jedermann!</div>
+        </div>
+    </div>
+    <div class="content-wrapper">
+        <div class="ribbon l-box-lrg pure-g">
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+
+                <h2 class="content-head content-head-ribbon">Kulturerbejahr 2018</h2>
+
+                <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+			 <a href="https://www.kulturerbe2018.ch/"target="_blank"><img width="300" alt="Challenge #Kulturerbe2018" 
+		          class="pure-img-responsive" src="images/Challenge2018Kulturerbejahrlogo.gif"></img></a> 
+			                
+                </div>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+
+                <h2 class="content-head content-head-ribbon">Unsere Challenge 2018 für die Schweiz</h2>
+
+                <p>
+                    Welche Kantone schaffen es, bis zum Ende des Kulturerbejahres 1'000* Bankgeheimnisse* zu dokumentieren? 
+		<p>
+			Helfen Sie mit und unterstützen Sie Ihren Kanton! Fotografieren Sie Ihre Lieblings-Bänkli und fügen Sie 
+			diese der Bänkli-Landkarte hinzu. Jedes Bänkli hat ein eigenes Bänkli-Buch, in welchem Sie weitere Fotos hinzufügen
+			und Ihre persönliche Geschichte einschreiben können. 
+		 </p>	
+		    Lassen Sie sich von den bereits erfassten Bankgeheimnissen inspirieren und schmöckern Sie in den "Bänkli-Büchern". 
+		    Bänkli bieten Ihnen mehr als eine Sitzfläche - ein jedes möchte Ihnen etwas besonders zeigen. 
+		    Gehen Sie mit uns auf Entdeckungsreise!
+                </p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2 class="content-head is-center">Ein paar unserer Geheimtipps für Sie</h2>
+
+            <div class="pure-g">
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <h3 class="content-subhead">
+                        Kaiserliche Bankgeheimnisse
+                    </h3>
+                    <p>
+                        Avenches - die Goldbüste des Kaisers Mark Aurel zeugt heute noch von der kaiserlichen Aufmerksamkait, die Avenches 
+			    zu Römerzeiten genoss. So manch Bänklein lädt ein, die glanzvolle Vergangenheit der ehemaligen Hauptstadt der Helvetier 
+			    vor dem inneren Auge wieder auferstehen zu lassen. Das Amphitheater wird übrigens demnächst mit nagelneuen Bankgeheimnissen aufwarten! 
+                    </p>
+			 <a href="https://www.bankgeheimnisse.ch/bench/574"><img width="400" alt="Bänkli Avenches" class="pure-img-responsive" src="images/Cigognier_3kl.jpg"></img></a> 
+			
+                </div>
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <h3 class="content-subhead">
+                       Weitsichtige Bankgeheimnisse 
+                    </h3>
+                       <p>
+                       Aussicht ohne Höhenluft? Das Gros-de-Vaud profitiert von seiner zentralen Lage. 
+			    So manches Bankgeheimnis hat dort sowohl den Jura, den Jorat, die Voralpen, die vaudoiser Alpen und manchmal sogar 
+			    sogar den Mont Blanc als Augenzeugen :-)!
+		        </p>
+                        <a href="https://www.bankgeheimnisse.ch/bench/576"><img width="400" alt="Gros-de-Vaud-Bänkli" class="pure-img-responsive" src="images/echallens-hiver-03.jpg"></img></a>
+                </div>
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <h3 class="content-subhead">
+                        Das meistgeklickte Bankgeheimnis
+                    </h3>
+                    <p>
+                        Hier wird in Zukunft automatisch jenes Bänkli präsentiert, welches in der vergangenen Woche die meisten Online-Aktivitäten aufwies. Lassen Sie sich inspirieren!
+                    </p> <p>
+			Inzwischen können Sie ein Ur-Schweizer Bankgeheimnis geniessen: Gelegen am Fronalpstock, eingefangen von unserem Bänkli-Botschafter Hans-Peter Bruder!
+	            </p>
+			<img width="400" alt="Fronalpstock" class="pure-img-responsive" src="images/Fronalpstock_kl.JPG"></img>
+                </div>
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <h3 class="content-subhead">
+                        Unser jüngstes Bankgeheimnis
+                    </h3>
+			<p>
+                        Ein herzliches Willkomen unseren Jüngsten! Hier sehen Sie in Zukunft das neueste aller virtuellen Bankgeheimnisse !
+			 <p> 
+		        Um Ihnen die Wartezeit bis zur Inbetriebnahme dieser Funktion zu verkürzen, rollen wir für Sie den roten Teppich aus 
+		        und entführen Sie zu einem Geheimtipp: Die roten Bänkli von Wollerau, mit Sicht auf den Zürichsee!
+			</p></p><p>
+			<img width="400" alt="Wollenau" class="pure-img-responsive" src="images/Wollenau (6)-kl.jpg"></img>	    
+                    </p>
+                </div>
+            </div>
+             
+<p></p><p></p><p></p>
+                 <hr />
+ <div class="content">
+	 <div class="pure-g">
+		
+	        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+			<h6> Das Impressum finden Sie <a href="impressum.html">hier!</a> </h6>                
+                </div>
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+			<h6> Unsere <a href="Datenschutzrichtlinie_Bankgeheimnisse_12-2017.htm">Datenschutzerklärung</a> </h6>
+                </div>    
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+			<h6>Die <a href="Nutzungsbedingungen DE.htm">Nutzungsbedingungen</a> </h6>
+	        </div>        
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+			<h6> Piktogramme von Isabelle Keyeux und <a href="https://katharina-peter.wixsite.com/meinewebsite"target="_blank">Katharina Peter</a><p>Hauptfoto: Bänkli in Engelberg, von H.P.Bruder</p></h6>                
+                </div>
+
+
+
+
+
+      </div>
+    </div>
+</body>
+</html>
