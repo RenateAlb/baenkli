@@ -301,6 +301,29 @@ a.pure-button-primary {
     width: 100%;
 }
 
+#stats {
+}
+
+#stats tr {
+    border-bottom: 1px solid #222;
+}
+
+#stats td {
+    padding-left: 1em;
+}
+
+#stats td:nth-child(odd) {
+    width: 7em;
+    max-width: 7em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#stats td:nth-child(even) {
+    width: 3em;
+}
+
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
  * On tablets and other medium-sized devices, we want to customize some
@@ -313,6 +336,10 @@ a.pure-button-primary {
         font-size: 16px;
     }
 
+    #stats td:nth-child(odd) {
+        width: auto;
+        max-width: none;
+    }
     /* We increase the height of the splash-container */
 /*    .splash-container {
         height: 500px;
