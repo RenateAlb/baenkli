@@ -1,5 +1,5 @@
 var xhr = new XMLHttpRequest();
-xhr.open('GET', "http://cartebancaire.org:8080/cantonStats.json", true);
+xhr.open('GET', "https://www.bankgeheimnisse.ch/cantonStats.json", true);
 xhr.setRequestHeader('Accept', 'application/json');
 xhr.onreadystatechange = function() {
   if (xhr.readyState == 4 && xhr.status == 200) {
