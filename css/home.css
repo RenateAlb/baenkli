@@ -228,6 +228,18 @@ a.pure-button-primary {
     position: absolute;
 }
 
+.splash .t7 img {
+    vertical-align: bottom;
+    width: 75px;
+}
+
+.splash .t7 {
+    position: absolute;
+    font-size: 10px;
+    left: 1em;
+    top: 86%;
+}
+
 /* This is the main heading that appears on the blue section */
 .splash-head {
     font-size: 20px;
